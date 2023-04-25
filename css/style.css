@@ -1,0 +1,258 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Main */
+
+/*Head*/
+
+body {
+    margin: 0 auto;
+
+    position: relative;
+    width: 1536px;
+    height: 864px;
+    
+    background: #1C252C;
+}
+
+#button-1 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 - 375.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+#button-2 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 - 224.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+#button-3 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 - 73.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+#button-4 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 + 77.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+#button-5 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 + 228.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+#button-6 {
+    outline: none;
+    border: none;
+
+    position: absolute;
+    width: 129px;
+    height: 37px;
+    left: calc(50% - 129px/2 + 378.5px);
+    top: calc(50% - 37px/2 - 384.5px);
+    
+    background: #5871BC;
+    border-radius: 20px;
+}
+
+.mveu-img {
+    position: absolute;
+    width: 883px;
+    height: 219px;
+    left: calc(50% - 883px/2 - 0.5px);
+    top: calc(50% - 219px/2 - 243.5px);
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+/* Main text */
+
+.course-name {
+    position: absolute;
+    width: 797px;
+    height: 34px;
+    left: 363px;
+    top: 323px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #B7A7AE;
+}
+
+.course-project {
+    position: absolute;
+    width: 305px;
+    height: 34px;
+    left: calc(50% - 305px/2 - 6.5px);
+    top: calc(50% - 34px/2 - 48px);
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #B7A7AE;
+}
+
+.project-name {
+    position: absolute;
+    width: 733px;
+    height: 40px;
+    left: 403px;
+    top: 411px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #B7A7AE;
+}
+
+.auth-name {
+    position: absolute;
+    width: 510px;
+    height: 61px;
+    left: 700px;
+    top: 460px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: right;
+    
+    color: #B7A7AE;
+}
+
+/* Bottom */
+.wiki-text {
+    position: absolute;
+    width: 791px;
+    height: 48px;
+    left: calc(50% - 791px/2 + 0.5px);
+    top: calc(50% - 48px/2 + 126px);
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #B7A7AE;
+}
+
+.dvd-img {
+    position: absolute;
+    width: 884px;
+    height: 244px;
+    left: calc(50% - 884px/2);
+    top: calc(50% - 244px/2 + 297px);
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
