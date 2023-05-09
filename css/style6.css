@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    position: relative;
+    width: 1536px;
+    height: 864px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    background: #1C252C;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+#button-1 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 - 405.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+#button-2 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 - 242.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+#button-3 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 - 79.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+#button-4 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 + 82.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+#button-5 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 + 245.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+#button-6 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: calc(50% - 139px/2 + 407.5px);
+    top: calc(50% - 58px/2 - 332px);
+    
+    background: #5871BC;
+    border-radius: 50px;
+}
+
+.text-block {
+    position: absolute;
+    width: 1071px;
+    height: 428px;
+    left: calc(50% - 1071px/2 + 0.5px);
+    top: calc(50% - 428px/2 - 10px);
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+
+    padding: 10px;
+    font-size: 32px;
+}

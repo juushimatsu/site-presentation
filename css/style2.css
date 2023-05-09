@@ -176,3 +176,242 @@ body {
     background: #5871BC;
     border-radius: 20px;
 }
+
+/* адаптация */
+
+@media screen and (min-device-width: 998px) and (max-device-width: 1200px) 
+{ 
+    
+
+} 
+
+@media screen and (min-device-width: 768px) and (max-device-width: 998px) 
+{ 
+
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px)
+{
+    body {
+        margin: 0 auto;
+        position: relative;
+        width: 768px;
+        height: 864px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        background: #1C252C;
+    }
+
+    .video-bg {
+        background: #1C252C;
+    }
+    .video-bg video {
+        background: #1C252C;
+    }
+    .video-bg__content {
+        background: #1C252C;
+    }
+    .effects {
+        background: #1C252C;
+    }
+    .main {
+        background: #1C252C;
+    }
+
+    button{
+        outline: none;
+        border: none;
+    }
+    #button-1 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 - 270px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+
+    #button-2 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 - 160px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+
+    #button-3 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 - 50px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+
+    #button-4 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 + 60px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+
+    #button-5 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 + 170px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+
+    #button-6 {
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: calc(50% - 100px/2 + 280px);
+        top: calc(50% - 37px/2 - 395.5px);
+        
+        background: #5871BC;
+        border-radius: 20px;
+    }
+    
+    .text {
+        position: absolute;
+        width: 650px;
+        height: 443px;
+        left: calc(50% - 650px/2);
+        top: calc(50% - 443px/2 - 103.5px);
+        
+        background: #D9D9D9;
+        border-radius: 10px;
+
+        padding: 5px;
+        font-size: 24px;
+        color: black;
+    }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 576px)
+{
+    body {
+        margin: 0 auto;
+        position: relative;
+        width: 576px;
+        height: 1048px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        background: #D9D9D9;
+    }
+    /*
+    .video-bg {
+        all: none;
+    }
+    .video-bg video {
+        all: none;
+        visibility: hidden;
+    }
+    .video-bg__content {
+        all: none;
+    }
+    .effects {
+        all: none;
+        visibility: hidden;
+    }
+    .main {
+        all: none;
+    }
+    */
+    #button-1{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 36px;
+        top: 27px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    #button-2{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 150px/2);
+        top: 27px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    #button-3{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 150px/2 + 177px);
+        top: 27px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    #button-4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 150px/2 - 177px);
+        top: 196px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    #button-5{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 150px/2);
+        top: 196px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    #button-6{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 150px/2 + 177px);
+        top: 196px;
+        
+        background: #5871BC;
+        border-radius: 10px;
+    }
+
+    .text {
+        position: absolute;
+        width: 504px;
+        height: 624px;
+        left: calc(50% - 504px/2);
+        top: 378px;
+        
+        background: #D9D9D9;
+        border-radius: 10px;
+
+        padding: 5px;
+        font-size: 24px;
+        color: black;
+    }
+}
